@@ -40,7 +40,7 @@ const Home: NextPage = (props) => {
     new Date(
       today.getTime() -
         (today.getDay() === 5
-          ? 0
+          ? 7
           : today.getDay() === 6
           ? 1
           : today.getDay() === 0
