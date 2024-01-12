@@ -179,7 +179,7 @@ const Home: NextPage = (props) => {
                           },
                           {
                             title: "Overall",
-                            accessor: "progress.new",
+                            accessor: "progress.end",
                           },
                         ]}
                         records={orderBy(
